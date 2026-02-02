@@ -1,13 +1,14 @@
-import BentoWhite from "./components/BentoWhite";
+import PerformanceChart from "./components/Chartbar";
 
 export default function App() {
   return (
     <div>
       {/* <BentoGlow /> */}
-      <BentoWhite/>
+      {/* <BentoWhite/> */}
       {/* <SignatureFlow/> */}
-      {/* <AddMenu/> */}
+      {/* <AddMenu /> */}
       {/* <Badge/> */}
+      <PerformanceChart/>
     </div>
   );
 }
