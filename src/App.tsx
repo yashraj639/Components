@@ -1,10 +1,9 @@
-import PricingCustomizer from "./components/PricingCustomizer";
-
+import RetroMusicPlayer from "./components/RetroMusicPlayer";
 
 export default function App() {
   return (
     <>
-    <PricingCustomizer />
+      <RetroMusicPlayer />
     </>
   );
 }

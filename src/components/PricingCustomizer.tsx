@@ -1,4 +1,4 @@
-import { motion } from "framer-motion";
+import { motion } from "motion/react";
 import { useMemo, useState } from "react";
 
 type Billing = "monthly" | "yearly";
